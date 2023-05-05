@@ -1,0 +1,106 @@
+body{
+    background-color: hsl(0, 0%, 94%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding: 50px;
+ }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
+
+ .calculator{
+    background-color: hsl(0, 0%, 100%);
+    width: 550px;
+    height: 450px;
+    border-radius: 20px;
+    border-bottom-right-radius : 150px;
+ }
+ .line{
+    display: inline-block;
+    width: 70%;
+    height: 2px;
+    background-color: hsl(0, 1%, 44%);
+    margin-bottom: 1px;
+    margin-left: 40px;
+   
+ }
+
+ .arrow-submit{
+   display: inline-block;
+   border-radius: 50%;
+   background-color: hsl(259, 100%, 65%);
+   border: none;
+   vertical-align: middle;
+   width: 72px;
+   height: 65px;
+   
+ }
+
+ @media screen and (max-width : 767px) {
+   .line{
+      position: relative;
+      width: 420px;
+   }
+   .arrow-submit{
+      position: absolute;
+      left: 44%;
+      transform: translateX(-50%);
+      transform: translateY(-20%);
+      
+   }
+   .arrow-line{
+      padding: 15px;
+   }
+ }
+
+.arrow-submit img{
+   display: block;
+   margin: 17px;
+   width: 25px;
+   height: 25px;
+}
+
+.arrow-submit:hover{
+   background-color: black;
+ }
+
+.years-output,.months-output,.days-output{
+   color: hsl(259, 100%, 65%);
+}
+
+.results {
+   font-size: 50px;
+   font-weight: 800;
+   font-style: italic;
+   margin-left: 40px;
+
+}
+
+.output-txt{
+   color: black;
+}
+
+label{
+   color: hsl(0, 1%, 44%);
+   font-size: 10px;
+   font-weight: 800;
+   letter-spacing: 4px;
+}
+
+input::placeholder{
+   font-size: 15px;
+   font-weight: 800;
+   letter-spacing: 4px;
+}
+input:focus::placeholder{
+   opacity: 0.5;
+}
+.form-control {
+   font-size: 24px;
+   font-weight: 800;
+   width: 100px;
+ }
