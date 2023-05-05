@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/jobychacko2001/Age-calculator-app
+- Live Site URL: https://agecalculator-joby.netlify.app/
 
 ## My process
 
